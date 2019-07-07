@@ -1,6 +1,6 @@
 <template>
     <div>
-        我为君擦拭缨枪，为君梳戎装.
+        我是古风区域
     </div>
 </template>
 
