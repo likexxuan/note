@@ -1,10 +1,23 @@
 <template>
     <div >
        <div>
-             <button @click="tosec">列表second</button>
-       </div>
-        <div>
-            <button  @click="chil">列表chil</button>
+             <ul>
+                 <li>
+                     <button @click="tosec">列表second</button>
+                </li>
+                <li>
+                    <button  @click="chil">列表chil</button>
+                </li>
+                <li>
+                      <button  @click="abc">列表abc</button>
+                </li>
+                <li>
+                     <button  @click="bcd">列表bcd</button>
+                </li>
+                
+           
+           
+             </ul>
         </div>
             
        
@@ -19,6 +32,12 @@ export default {
         },
         chil(){
             this.$router.push('/chil')
+        },
+        abc(){
+            this.$router.push('/abc')
+        },
+        bcd(){
+            this.$router.push('/bcd')
         }
     }
 }
